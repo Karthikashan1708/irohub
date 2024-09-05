@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="Registration-Form"></div>
+    <h1>Registration Form</h1>
+    <div class="Form"></div>
+    <table width="500px"></table>
+    <form action="connect.php" method="post"></form>
+    <tr>
+        <p>First name:</p><br>
+        <td></td>
+        <td><input type="text" size="40" placeholder="enter your First name here" name="First"/></td>
+    </tr><br><br>
+    <tr>
+        <p>Last name:</p><br>
+        <td></td>
+        <td><input type="text" size="40" placeholder="enter your last name here" name="Last"/></td>
+    </tr><br><br>
+    <tr>
+        <p>password:</p><br>
+        <td></td>
+        <td><input type="password" size="40" name="p"/></td>
+    </tr><br><br>
+    <tr>
+        <p>DOB:</p><br>
+        <td></td>
+        <td><input type="date" size="40" name="DOB"/></td>
+    </tr><br><br>
+    <tr>
+    <p>Email:</p><br>
+    <td></td>
+    <td><input type="email"size="40" placeholder="enter your Email here" name="email"/></td>
+    </tr><br><br>
+    <tr>
+    <p>phone number:</p><br>
+    <td></td>
+    <td><input type="number"size="40" placeholder="enter your phone.no here" name="number"/></td>
+    </tr><br><br>
+    <tr>
+    <p>Gender:</p><br>
+    <td></td>
+    <td><input type="radio" name="gen" value="male"/> male</td>
+    <td><input type="radio" name="gen" value="Female"/>Female</td>
+    </tr><br><br>
+    <tr>
+    <p>college name:</p><br>
+    <td></td>
+    <td><input type="text" size="40" placeholder="enter your college name here" name="c"/></td>
+    </tr><br><br>
+    <tr>
+    <p>Department:</p><br>
+    <td></td>
+    <td>
+        <select name="d">
+            <option value="IT">IT</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="MECH">MECH</option>
+            <option value="CIVIL">CIVIL</option>
+            <option value="EEE">EEE</option>
+        </select>
+    </td>
+    </tr><br><br>
+    <tr>
+    <td><input type="submit" value="submit"/></td>
+    <td><input type="reset" value="reset"/></td>
+    </tr><br><br>
+</body>
+</html>

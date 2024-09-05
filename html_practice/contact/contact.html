@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet"type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <marquee>
+        <h1>Contact Us</h1>
+    </marquee>
+    </header>
+    <main>
+        <section class="contact-form">
+        
+            <h2>phone</h2>
+            <p>9600613959</p>
+            <h2>Email</h2>
+            <p>irohub@gmail.com</p>
+            <h2>Address</h2>
+            <p>3rd floor Josh Towers Civil Line Rd,<br> Padamughal, Kakkanad, Kochi,<br> Kerala 682030</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
+                
